@@ -1,0 +1,339 @@
+body {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+.principal {
+    background-image: url(https://i.imgur.com/YEeshfO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 97%;
+}
+
+.menu {
+    z-index: 1;
+    display: flex;
+}
+
+.topo {
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    width: 960px;
+}
+
+.logo { 
+    display: inline-block;
+}
+
+.logo img {
+    border: 0;
+    height: 40px;
+    width: 110px;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item a {
+    margin: 0px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.item a:hover{
+    color: gold;
+}
+
+li{
+    display: list-item;
+}
+
+.usuario{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.usuario-foto {
+    border-radius: 100%;
+    box-shadow: 0 2px 3 px;
+    height: 45px;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 45px;
+}
+
+.usuario-foto img {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.nome-usuario {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nome-usuario:hover{
+    color: gold;
+}
+
+.conteudo-principal {
+    width: 100%;
+}
+
+.conteudo-principal .container {
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.nome-filme{
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0;
+    text-transform: uppercase
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.genero {
+    display: flex;
+    margin: 15px 0 30px;
+    font-size: 13px;
+}
+
+.genero-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+.botao {
+    display: inline-block;
+    padding: 15px 50px;
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #e4bb23;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+
+.botao i {
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.informacao {
+    padding: 20px 0;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.informacao p:last-child {
+    color: yellow;
+    font-weight: bold;
+}
+
+section.catalogo {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+.menu-lista {
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.lista-item a:hover{
+    color: goldenrod;
+}
+
+.lista-item {
+    margin: 0 20px;
+}
+
+.lista-item a {
+    color: grey;
+    display: inline-block;
+    padding: 25px 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.catalogo-filmes{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.catalogo-item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 24%;
+    height: auto;
+}
+
+.poster {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    border: 0;
+}
+
+.poster img {
+    width: 100%;
+    height: 340px;
+}
+
+.sinopse-genero-item {
+    color: #e4bb23;
+    font-size: 10px;
+    line-height: 1em;
+    text-decoration: none;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.filme-nota{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.filme-nota i {
+    color: gray;
+}
+
+.filme-nota i:hover{
+    color: rgb(194, 14, 14);
+}
+
+.filme-sinopse h3 {
+    padding: 7px;
+}
+
+.rodape-imagem {
+    border: 0;
+    height: 40px;
+    width: 110px;
+}
+
+.rodape{
+    background-color: #fff;
+    color: #bababa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.rodape-lista{
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.rodape-lista-item {
+    margin: 0 20px;
+}
+
+.rodape-lista-item a {
+    font-size: 30px;
+    color: grey;
+    text-decoration: none;
+}
+
+
